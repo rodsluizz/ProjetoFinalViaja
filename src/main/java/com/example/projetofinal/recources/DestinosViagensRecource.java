@@ -29,7 +29,7 @@ public class DestinosViagensRecource {
 		return destinosViagensService.findAll();
 	}
 	
-	@PostMapping("/cadastro")
+	@PostMapping
 	public DestinosViagens save(@RequestBody DestinosViagens obj) {
 		return destinosViagensService.save(obj);
 	}
